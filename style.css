@@ -36,9 +36,13 @@ ul{
 
 .quote{
     background-color: #e5e7eb;
-}
+    padding: 30px;
+    flex-wrap:wrap;
+    size: 40px;
+}  
 
 .top-left .box{
+    display: flex;
     font-weight: 900;
     font-size: 48px;
     flex-wrap: wrap;
@@ -62,15 +66,27 @@ ul{
 .mid{
     display: flex;
     justify-content: space-around;
+    padding: 30px;
 }
 
 .card{
-    border: #3882f6;
-    border-width: thin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .box{
     font: 36px;
     font-weight: 900;
     justify-content: center;
+}
+
+.bottom{
+    padding: 30px;
+}
+
+.signup{
+    color: white;
+    background-color: #3882f6;
+
 }
