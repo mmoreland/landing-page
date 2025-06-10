@@ -1,6 +1,9 @@
-.body{
+body{
+    min-height: 100vh;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    margin:0;
+    justify-content: space-between;
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
@@ -13,7 +16,7 @@ ul{
     
   }
 
-.topper, .top{
+.topper, .top, .footer{
     display: flex;
     background-color: #1f2937;
     color: white;
@@ -23,6 +26,7 @@ ul{
 .top{
     justify-content: space-evenly;
     gap: 32px
+    
 }
 
 .topper{
@@ -81,15 +85,26 @@ ul{
     justify-content: center;
 }
 
+.space{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
 .bottom{
     padding: 30px;
     color: white;
     background-color: #3882f6;
     display: flex;
     justify-content: space-between;
+    padding: 16px;
 }
 
 .signup{
     display: flex;
     flex-direction: column;
+}
+
+.footer{
+    justify-content: center;
 }
