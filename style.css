@@ -13,20 +13,18 @@ ul{
     gap: 8px;
     padding: 0;
     margin: 0;
-    
   }
 
-.topper, .top, .footer{
+.topper, .top{
     display: flex;
     background-color: #1f2937;
     color: white;
-    padding: 32px;
+    padding: 24px;
 }
 
 .top{
     justify-content: space-evenly;
     gap: 32px
-    
 }
 
 .topper{
@@ -61,6 +59,7 @@ ul{
 .subtext{
     flex-wrap: wrap;
     width: 265px;
+    color: #e5e7eb;
 }
 
 .placeholder{
@@ -70,6 +69,7 @@ ul{
 .mid{
     display: flex;
     justify-content: space-around;
+    align-content: center;
     padding: 30px;
 }
 
@@ -98,6 +98,7 @@ ul{
     display: flex;
     justify-content: space-between;
     padding: 16px;
+    border-radius: 8px;
 }
 
 .signup{
@@ -107,4 +108,8 @@ ul{
 
 .footer{
     justify-content: center;
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    padding: 8px;
 }
