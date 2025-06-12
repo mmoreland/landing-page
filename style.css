@@ -31,7 +31,7 @@ ul{
     justify-content: space-evenly;
 }
 
-.top-left{
+.test{
     display: flex;
     flex-direction: column;
 }
@@ -104,6 +104,7 @@ ul{
 .signup{
     display: flex;
     flex-direction: column;
+    padding: 16px;
 }
 
 .footer{
@@ -112,4 +113,11 @@ ul{
     background-color: #1f2937;
     color: white;
     padding: 8px;
+}
+
+button{
+    background-color:#3882f6;
+    color: white;
+    border-color: white;
+    border-radius: 4px;
 }
